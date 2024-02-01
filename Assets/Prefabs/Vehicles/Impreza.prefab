@@ -127,6 +127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7177482432029816059}
+  - component: {fileID: 6844237167942525511}
   m_Layer: 0
   m_Name: Wheel_FR
   m_TagString: Untagged
@@ -150,6 +151,25 @@ Transform:
   - {fileID: 8265214655399713970}
   m_Father: {fileID: 8613928392505417574}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6844237167942525511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3921064970082808235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef2d120aaffbc84a89c1541e514961a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.34
+  suspensionDistance: 0.5
+  springRate: 50000
+  damperRate: 2500
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &4894394767479273054
 GameObject:
   m_ObjectHideFlags: 0
@@ -159,6 +179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6766323879240945686}
+  - component: {fileID: 4694359034495519634}
   m_Layer: 0
   m_Name: Wheel_RR
   m_TagString: Untagged
@@ -182,6 +203,25 @@ Transform:
   - {fileID: 7745317488399010703}
   m_Father: {fileID: 8613928392505417574}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4694359034495519634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4894394767479273054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef2d120aaffbc84a89c1541e514961a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.34
+  suspensionDistance: 0.5
+  springRate: 50000
+  damperRate: 2500
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &5469411188721099016
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +327,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8408960395768853033}
+  - component: {fileID: 2520909453985295289}
   m_Layer: 0
   m_Name: Wheel_RL
   m_TagString: Untagged
@@ -310,6 +351,25 @@ Transform:
   - {fileID: 8448511222265999464}
   m_Father: {fileID: 8613928392505417574}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2520909453985295289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5868947518064744292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef2d120aaffbc84a89c1541e514961a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.34
+  suspensionDistance: 0.5
+  springRate: 50000
+  damperRate: 2500
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &6929679705342949689
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,7 +434,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
-  m_Constraints: 0
+  m_Constraints: 34
   m_CollisionDetection: 1
 --- !u!1 &7213032166605696539
 GameObject:
@@ -385,6 +445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 964733451587579888}
+  - component: {fileID: 8155541254995432504}
   m_Layer: 0
   m_Name: Wheel_FL
   m_TagString: Untagged
@@ -408,6 +469,25 @@ Transform:
   - {fileID: 3800889047599570700}
   m_Father: {fileID: 8613928392505417574}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8155541254995432504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213032166605696539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ef2d120aaffbc84a89c1541e514961a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.34
+  suspensionDistance: 0.5
+  springRate: 50000
+  damperRate: 2500
+  collisionLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &7874564736344623817
 GameObject:
   m_ObjectHideFlags: 0
